@@ -18,6 +18,6 @@ module.exports = {
     filename: 'fs4js.js',
     library: "fs4js",
     libraryTarget: "umd",
-    path: path.resolve(__dirname, 'dist')
+    path: path.resolve(__dirname, 'lib')
   }
 };
