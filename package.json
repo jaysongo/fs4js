@@ -1,0 +1,32 @@
+{
+  "name": "fs4js",
+  "version": "0.1.0",
+  "description": "A JavaScript library that enables a functional-style of programming",
+  "main": "dist/fs4js.js",
+  "module": "fs4js.js",
+  "scripts": {
+    "build": "webpack",
+    "test": "test"
+  },
+  "typings": "dist/src/index.d.ts",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jaysongo/fs4js.git"
+  },
+  "keywords": [
+    "functional",
+    "javascript"
+  ],
+  "author": "jgo",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jaysongo/fs4js/issues"
+  },
+  "homepage": "https://github.com/jaysongo/fs4js#readme",
+  "devDependencies": {
+    "eslint": "^4.15.0",
+    "ts-loader": "^3.2.0",
+    "typescript": "^2.6.2",
+    "webpack": "^3.10.0"
+  }
+}
